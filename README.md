@@ -9,16 +9,16 @@ A simple C++ program that tests pre-defined keywords against a certain file or i
 Still under-development. Will keep updating. If any bugs are found. DM @ Discord: TheFlash2k#0407
 
 ## Table of Contents:
-1. (Introduction)[https://github.com/TheFlash2k/SyntaxChecker#Introdcution]
-2. (Work done by each group member)[https://github.com/TheFlash2k/SyntaxChecker#Work-done-by-each-group-member]
-3. (Data Structures OR Algorithm used)[https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used]
-4. (Class/Attributes/Methods)[https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used#classattributesmethods]
-5. (class Node)[https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used#class-node]
-6. (class Node)[https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used#class-stack]
-7. (class FileParser)[https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used#class-fileparser]
-8. (class Validator)[https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used#class-validator]
-8. (class Expressions)[https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used#class-expressions]
-10. (class ERROR)[https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used#class-ERRO]
+1. [Introduction](https://github.com/TheFlash2k/SyntaxChecker#Introduction)
+2. [Work done by each group member](https://github.com/TheFlash2k/SyntaxChecker#Work-done-by-each-group-member)
+3. [Data Structures OR Algorithm used](https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used)
+4. [Class/Attributes/Methods](https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used#classattributesmethods)
+5. [class Node](https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used#class-node)
+6. [class Node](https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used#class-stack)
+7. [class FileParser](https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used#class-fileparser)
+8. [class Validator](https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used#class-validator)
+8. [class Expressions](https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used#class-expressions)
+10. [class ERROR](https://github.com/TheFlash2k/SyntaxChecker#data-structures-or-algorithm-used#class-ERROR)
 
 ## Report:
 ### Introduction:
@@ -74,7 +74,7 @@ The class Stack is the complete implementation of Stack data structure with the 
 ```
 -- There is another method called
 ```cpp
---- void print(); // Prints all the contents within the stack.
+void print(); // Prints all the contents within the stack.
 ```
 This is a debugging method which prints all the contents within the stack.
 
