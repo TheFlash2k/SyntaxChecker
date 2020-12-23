@@ -1,5 +1,5 @@
-## Data Structure and Algorithms - Semester Project
 ## Syntax Checker.
+A simple C++ program that tests pre-defined keywords against a certain file or input from user through stdin. 
 
 ## Developed By:
 - Ali Taqi Wajid
@@ -77,12 +77,12 @@ This file contains methods to read file contents, store the file contents in a s
 5. int readCount = 0; // Keeps number of times the file has been read. This helps in getContents() method.
 ```
 - Methods:
--- Private Methods:
+###### Private Methods:
 ```cpp
 1. bool isAccessible();// Checks whether the file exists/ is accessible or not
 2. void go_to_beginning(); // This method takes the pointer to the beginning of the file.as
 ```
--- Public Methods:
+###### Public Methods:
 ```cpp
 3. int getNumLines(); // Gets the number of lines in the file
 4. void setFileName(std::string); // Sets the file name
