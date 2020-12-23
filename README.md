@@ -122,12 +122,12 @@ This class is a child class of class Validator. This class contains all the most
 4. int currentLine = 0; // An index which tells us the number upto which lineNumbers array has been filled.
 ```
 - Methods:
-- Private Methods:
+###### Private Methods:
 ```cpp
 1. bool checkBrackets(); // The main method that checks if all the brackets are balanced.
 2. bool invokeChecks(); // This is the method that will check if the keywords are balanced, if not, will throw proper errors.
 ```
-- Public Methods:
+###### Public Methods:
 ```cpp
 3. FileParser* getHandle()const; // Returns a handle to the FileParser class.
 4. void init(); // The public method that can be used to initialize everything check.
