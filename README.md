@@ -21,8 +21,10 @@ Still under-development. Will keep updating. If any bugs are found. DM @ Discord
 10. [class ERROR](https://github.com/TheFlash2k/SyntaxChecker#class-ERROR)
 
 ## Report:
+-------------------------------------------------
 ### Introduction:
 This project was assigned to us as a semester-end project. The main goal of this project was to test whether a user-defined file has correct syntax or not. In short, our goal was to create an interpreter, kind of, but not really. We were told to use a stack data structure for verification of parenthesis and keywords.
+-------------------------------------------------
 ### Work done by each group member:
 - Amal Abrar - 190787:
 ```
@@ -35,12 +37,15 @@ Implementation of the complete algorithm. Separation of each class into their sp
 implementation files. Design, Implementation and development of main function and writing the
 report.
 ```
+-------------------------------------------------
 ### Data Structures OR Algorithm used:
 ```
 > Stacks
 > Arrays/Dynamic Arrays
 > Parenthesis Balancing using Stack Push/Pop (Algorithm)
 ```
+
+-------------------------------------------------
 ## Class/Attributes/Methods:
 ### class Node:
 The class Node contains the following methods and attributes:
@@ -55,6 +60,8 @@ The class Node contains the following methods and attributes:
 3. Node* getNext()const;
 4. std::string getData()const;
 ```
+
+-------------------------------------------------
 ### class Stack:
 The class Stack is the complete implementation of Stack data structure with the push pop buttons and some minor features to enhance workflow and debugging. If we were to use the built-in stack, our program would work the same. We’d just have to change the declaration syntax. I was thinking about implementing a stack using templates but that was too much work and debugging would’ve gotten really hard. So, I decided to create a Node class having a single string type data. So, it has the following attributes and methods:
 - Attributes:
@@ -77,7 +84,7 @@ The class Stack is the complete implementation of Stack data structure with the 
 void print(); // Prints all the contents within the stack.
 ```
 This is a debugging method which prints all the contents within the stack.
-
+-------------------------------------------------
 ### class FileParser:
 This file contains methods to read file contents, store the file contents in a string array, get the number of lines in a file, returns a handle to a file, checks if the file is available etc. Proper error handling has also been done in this class. This class has a special method called “split()”which deletes any extra spaces before a keyword or after and trims it. It has the following attributes and methods:
 - Attributes:
@@ -104,6 +111,8 @@ This file contains methods to read file contents, store the file contents in a s
 8. void printContents(); // Prints all the contents to the screen.
 9. std::string* strip(); // Removes unnecessary whitespaces and returns a pointer
 ```
+
+-------------------------------------------------
 ### class Validator:
 This class is used to validate multiple parameters. All the methods in the class are set to protected so that only the classes inherited from this class can use these methods but not any public class. This class contains the following methods and attributes:
 - Attributes:
@@ -124,6 +133,8 @@ facing.
 9. std::string getBrackets(std::string); // Returns all the existing braces within a single string as a string.
 10. std::string getSubstring(std::string str); // Returns a pre-defined keyword existing in the passed argument.
 ```
+
+-------------------------------------------------
 ### class Expressions:
 This class is a child class of class Validator. This class contains all the most important algorithms such as checking if the brackets in the statements match or not. Then, checking if the keywords have proper endings or not. If not, proper error handling is also done using class ERROR. It contains only 2 public methods (besides the constructor and the destructor. One is used to begin the process of  checking. And the other returns a pointer of FileParser type to deal with methods within file such as printing the file(done in main) etc. It has the following methods and attributes:
 - Attributes:
@@ -144,6 +155,8 @@ This class is a child class of class Validator. This class contains all the most
 3. FileParser* getHandle()const; // Returns a handle to the FileParser class.
 4. void init(); // The public method that can be used to initialize everything check.
 ```
+
+-------------------------------------------------
 ### class ERROR:
 This is a static and only contains a single static method that can be used to display error, the error
 type, error description, error code and if an error exists on a line. One of the key features of this
